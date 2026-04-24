@@ -191,7 +191,7 @@ int main(void)
     ssd1306_SetCursor(0, 45);
     ssd1306_WriteString(str_yaw, Font_7x10, White);
 
-    // Logica da animacao visual (mira) na direita
+    // Logica da animacao visual na direita
     int cx = 96;
     int cy = 32;
     float ganho = 0.6f;
